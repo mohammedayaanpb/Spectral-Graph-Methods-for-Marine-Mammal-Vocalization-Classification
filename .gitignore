@@ -1,0 +1,59 @@
+# Cached HuggingFace data and large binaries
+Mss/
+*.npz
+*.parquet
+*.arrow
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/
+
+# Private recovery copy made before repository cleanup
+.local-backup/
+
+# Local runs and generated/downloaded data (curated existing results stay tracked)
+**/runs/run*/
+!v2/Level3/runs/run2/
+!v2/Level3/runs/run2/**
+wmms_data/
+*.wav
+*.mp3
+*.flac
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.bundle
+
+# Test/build tools and notebook execution
+.pytest_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+build/
+dist/
+*.egg-info/
+
+# Even curated run folders must not include feature/audio caches.
+**/runs/**/*.npz

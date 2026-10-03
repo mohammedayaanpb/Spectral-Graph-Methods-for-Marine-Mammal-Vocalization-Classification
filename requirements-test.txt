@@ -1,0 +1,7 @@
+# Lightweight validation; no audio downloads, CNN training, or GPU required.
+numpy>=1.26,<3
+scipy>=1.11,<2
+scikit-learn>=1.4,<2
+pytest>=7.4,<9
+nbformat>=5.9,<6
+ipython>=8.18,<10

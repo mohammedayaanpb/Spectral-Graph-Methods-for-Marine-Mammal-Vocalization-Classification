@@ -1,0 +1,137 @@
+{
+  "validation_features": [
+    "spectral_entropy",
+    "dominant_bin_variance",
+    "frame_energy_papr"
+  ],
+  "correlations_with_flatness_mean": {
+    "spectral_entropy": 0.5780806615364452,
+    "dominant_bin_variance": 0.059146260453273994,
+    "papr": 0.18310792429730505
+  },
+  "proxy_class_counts": {
+    "kmeans3_independent": [
+      61,
+      43,
+      18
+    ],
+    "papr_terciles_independent": [
+      41,
+      40,
+      41
+    ],
+    "flatness_terciles_v1_circular": [
+      41,
+      40,
+      41
+    ]
+  },
+  "per_k_metrics": {
+    "2": {
+      "n_clusters": 2,
+      "vs_proxy_kmeans3_independent": {
+        "ARI": 0.11854743960520953,
+        "NMI": 0.1732483564789786
+      },
+      "vs_proxy_papr_terciles_independent": {
+        "ARI": 0.09736344898660254,
+        "NMI": 0.10333680989476886
+      },
+      "vs_proxy_flatness_terciles_v1_circular": {
+        "ARI": 0.2508588114050155,
+        "NMI": 0.3078090518149825
+      }
+    },
+    "3": {
+      "n_clusters": 3,
+      "vs_proxy_kmeans3_independent": {
+        "ARI": 0.2928673906805673,
+        "NMI": 0.3447817265957009
+      },
+      "vs_proxy_papr_terciles_independent": {
+        "ARI": 0.2191306436599842,
+        "NMI": 0.20078294687165188
+      },
+      "vs_proxy_flatness_terciles_v1_circular": {
+        "ARI": 0.28934172730275337,
+        "NMI": 0.3239373852133926
+      }
+    },
+    "4": {
+      "n_clusters": 4,
+      "vs_proxy_kmeans3_independent": {
+        "ARI": 0.09248252123045474,
+        "NMI": 0.21209576510117004
+      },
+      "vs_proxy_papr_terciles_independent": {
+        "ARI": 0.16343851898045142,
+        "NMI": 0.17396012441561762
+      },
+      "vs_proxy_flatness_terciles_v1_circular": {
+        "ARI": 0.31946771235750787,
+        "NMI": 0.45143133088189613
+      }
+    },
+    "5": {
+      "n_clusters": 5,
+      "vs_proxy_kmeans3_independent": {
+        "ARI": 0.16859851343360932,
+        "NMI": 0.2924490810305325
+      },
+      "vs_proxy_papr_terciles_independent": {
+        "ARI": 0.1553871823627561,
+        "NMI": 0.19766907318896607
+      },
+      "vs_proxy_flatness_terciles_v1_circular": {
+        "ARI": 0.3048879892776061,
+        "NMI": 0.42992103887011457
+      }
+    },
+    "6": {
+      "n_clusters": 6,
+      "vs_proxy_kmeans3_independent": {
+        "ARI": 0.16616957392401732,
+        "NMI": 0.28746659031003463
+      },
+      "vs_proxy_papr_terciles_independent": {
+        "ARI": 0.16197468582496283,
+        "NMI": 0.20563453596588965
+      },
+      "vs_proxy_flatness_terciles_v1_circular": {
+        "ARI": 0.2395950632854376,
+        "NMI": 0.41429743648198175
+      }
+    },
+    "7": {
+      "n_clusters": 7,
+      "vs_proxy_kmeans3_independent": {
+        "ARI": 0.17097807048418018,
+        "NMI": 0.2973795263584754
+      },
+      "vs_proxy_papr_terciles_independent": {
+        "ARI": 0.1122248678785063,
+        "NMI": 0.19047540183487327
+      },
+      "vs_proxy_flatness_terciles_v1_circular": {
+        "ARI": 0.32619780475056626,
+        "NMI": 0.4853774312103029
+      }
+    },
+    "8": {
+      "n_clusters": 8,
+      "vs_proxy_kmeans3_independent": {
+        "ARI": 0.16027223679806762,
+        "NMI": 0.32021442398966904
+      },
+      "vs_proxy_papr_terciles_independent": {
+        "ARI": 0.11338257016248153,
+        "NMI": 0.19685000300357025
+      },
+      "vs_proxy_flatness_terciles_v1_circular": {
+        "ARI": 0.28349778434268835,
+        "NMI": 0.45245550396285356
+      }
+    }
+  },
+  "best_k_from_fix3": 2
+}
